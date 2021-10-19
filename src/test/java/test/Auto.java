@@ -31,8 +31,10 @@ public class Auto {
         }
         if (bandera) {
             return "Auto original";
-        } 
-        return "Las piezas no son originales"; 
+        } else {
+            return "Las piezas no son originales"; 
+        }
+        
     }
 }
 
